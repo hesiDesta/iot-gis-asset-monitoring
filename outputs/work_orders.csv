@@ -1,0 +1,5 @@
+priority,asset_id,asset,status,team,distance_km
+1,TRF-03,Trafo Sukarami,CRITICAL,Tim Teknisi Selatan,2.79
+1,PMP-02,Pompa Air Sawah Lebar,CRITICAL,Tim Teknisi Pusat,3.12
+2,LMP-02,Panel Lampu Jalan Betungan,WARNING,Tim Teknisi Selatan,1.12
+2,GEN-02,Genset Pasar Minggu,WARNING,Tim Teknisi Selatan,1.74

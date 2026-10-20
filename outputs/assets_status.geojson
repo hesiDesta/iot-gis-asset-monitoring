@@ -1,0 +1,205 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.2767,
+          -3.7589
+        ]
+      },
+      "properties": {
+        "asset_id": "GEN-01",
+        "name": "Genset Kampus UNIB",
+        "type": "genset",
+        "temperature": 48.3,
+        "vibration": 2.26,
+        "battery": 42.7,
+        "status": "NORMAL",
+        "ts": "2026-10-20T05:45:56+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.3101,
+          -3.8402
+        ]
+      },
+      "properties": {
+        "asset_id": "GEN-02",
+        "name": "Genset Pasar Minggu",
+        "type": "genset",
+        "temperature": 68.7,
+        "vibration": 2.87,
+        "battery": 44.8,
+        "status": "WARNING",
+        "ts": "2026-10-20T05:45:56+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.265,
+          -3.7905
+        ]
+      },
+      "properties": {
+        "asset_id": "LMP-01",
+        "name": "Panel Lampu Jalan Pagar Dewa",
+        "type": "lampu",
+        "temperature": 49.9,
+        "vibration": 2.02,
+        "battery": 50.3,
+        "status": "NORMAL",
+        "ts": "2026-10-20T05:45:56+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.306,
+          -3.865
+        ]
+      },
+      "properties": {
+        "asset_id": "LMP-02",
+        "name": "Panel Lampu Jalan Betungan",
+        "type": "lampu",
+        "temperature": 74.7,
+        "vibration": 2.49,
+        "battery": 11.8,
+        "status": "WARNING",
+        "ts": "2026-10-20T05:45:56+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.2608,
+          -3.7928
+        ]
+      },
+      "properties": {
+        "asset_id": "PMP-01",
+        "name": "Pompa Air Padang Harapan",
+        "type": "pompa",
+        "temperature": 53.6,
+        "vibration": 2.32,
+        "battery": 72.2,
+        "status": "NORMAL",
+        "ts": "2026-10-20T05:45:56+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.2891,
+          -3.8156
+        ]
+      },
+      "properties": {
+        "asset_id": "PMP-02",
+        "name": "Pompa Air Sawah Lebar",
+        "type": "pompa",
+        "temperature": 94.7,
+        "vibration": 6.51,
+        "battery": 73.1,
+        "status": "CRITICAL",
+        "ts": "2026-10-20T05:45:56+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.2704,
+          -3.7581
+        ]
+      },
+      "properties": {
+        "asset_id": "PMP-03",
+        "name": "Pompa Air Kandang Limun",
+        "type": "pompa",
+        "temperature": 54.1,
+        "vibration": 2.05,
+        "battery": 91.7,
+        "status": "NORMAL",
+        "ts": "2026-10-20T05:45:56+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.2519,
+          -3.8023
+        ]
+      },
+      "properties": {
+        "asset_id": "TRF-01",
+        "name": "Trafo Lingkar Barat",
+        "type": "trafo",
+        "temperature": 40.4,
+        "vibration": 0.75,
+        "battery": 56.7,
+        "status": "NORMAL",
+        "ts": "2026-10-20T05:45:56+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.2698,
+          -3.8265
+        ]
+      },
+      "properties": {
+        "asset_id": "TRF-02",
+        "name": "Trafo Pantai Panjang",
+        "type": "trafo",
+        "temperature": 49.6,
+        "vibration": 1.41,
+        "battery": 62.2,
+        "status": "NORMAL",
+        "ts": "2026-10-20T05:45:56+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.321,
+          -3.8744
+        ]
+      },
+      "properties": {
+        "asset_id": "TRF-03",
+        "name": "Trafo Sukarami",
+        "type": "trafo",
+        "temperature": 84.7,
+        "vibration": 6.07,
+        "battery": 96.2,
+        "status": "CRITICAL",
+        "ts": "2026-10-20T05:45:56+00:00"
+      }
+    }
+  ]
+}

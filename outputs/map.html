@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_b29271d85f8701ec638dc9c19320bccd {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_b29271d85f8701ec638dc9c19320bccd" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_b29271d85f8701ec638dc9c19320bccd = L.map(
+                "map_b29271d85f8701ec638dc9c19320bccd",
+                {
+                    center: [-3.81243, 102.28208],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 12,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_68221e2303af432d3c89b506c812d9ec = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_68221e2303af432d3c89b506c812d9ec.addTo(map_b29271d85f8701ec638dc9c19320bccd);
+        
+    
+            var circle_marker_a3672b1cdcfcfb7d3641d56dca1802d8 = L.circleMarker(
+                [-3.7589, 102.2767],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_b29271d85f8701ec638dc9c19320bccd);
+        
+    
+        var popup_033bef737c7ad99efccf6eb2b8ee6baa = L.popup({
+  "maxWidth": 260,
+});
+
+        
+            
+                var html_aecccac264799957b1f70c0cdcb4778e = $(`<div id="html_aecccac264799957b1f70c0cdcb4778e" style="width: 100.0%; height: 100.0%;"><b>Genset Kampus UNIB</b> (GEN-01)<br>Status: NORMAL<br>Suhu: 48.3 C<br>Getaran: 2.26 mm/s<br>Baterai: 42.7%</div>`)[0];
+                popup_033bef737c7ad99efccf6eb2b8ee6baa.setContent(html_aecccac264799957b1f70c0cdcb4778e);
+            
+        
+
+        circle_marker_a3672b1cdcfcfb7d3641d56dca1802d8.bindPopup(popup_033bef737c7ad99efccf6eb2b8ee6baa)
+        ;
+
+        
+    
+    
+            var circle_marker_1cf37ec18dd311c39d630f5041d936e5 = L.circleMarker(
+                [-3.8402, 102.3101],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_b29271d85f8701ec638dc9c19320bccd);
+        
+    
+        var popup_fe524d8324275ba816e66531fa906bb7 = L.popup({
+  "maxWidth": 260,
+});
+
+        
+            
+                var html_210c1392fbc708b47d05807e769dbfd0 = $(`<div id="html_210c1392fbc708b47d05807e769dbfd0" style="width: 100.0%; height: 100.0%;"><b>Genset Pasar Minggu</b> (GEN-02)<br>Status: WARNING<br>Suhu: 68.7 C<br>Getaran: 2.87 mm/s<br>Baterai: 44.8%</div>`)[0];
+                popup_fe524d8324275ba816e66531fa906bb7.setContent(html_210c1392fbc708b47d05807e769dbfd0);
+            
+        
+
+        circle_marker_1cf37ec18dd311c39d630f5041d936e5.bindPopup(popup_fe524d8324275ba816e66531fa906bb7)
+        ;
+
+        
+    
+    
+            var circle_marker_d9eaa94f3f4a796ed7d4694bf0e59b99 = L.circleMarker(
+                [-3.7905, 102.265],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_b29271d85f8701ec638dc9c19320bccd);
+        
+    
+        var popup_2aeaf7ff184a3d3980a3b34cd7693000 = L.popup({
+  "maxWidth": 260,
+});
+
+        
+            
+                var html_8d61254fe0bdb45ffd5af99cfc9d429a = $(`<div id="html_8d61254fe0bdb45ffd5af99cfc9d429a" style="width: 100.0%; height: 100.0%;"><b>Panel Lampu Jalan Pagar Dewa</b> (LMP-01)<br>Status: NORMAL<br>Suhu: 49.9 C<br>Getaran: 2.02 mm/s<br>Baterai: 50.3%</div>`)[0];
+                popup_2aeaf7ff184a3d3980a3b34cd7693000.setContent(html_8d61254fe0bdb45ffd5af99cfc9d429a);
+            
+        
+
+        circle_marker_d9eaa94f3f4a796ed7d4694bf0e59b99.bindPopup(popup_2aeaf7ff184a3d3980a3b34cd7693000)
+        ;
+
+        
+    
+    
+            var circle_marker_919f279946611ebb4c10e437edfa00bf = L.circleMarker(
+                [-3.865, 102.306],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_b29271d85f8701ec638dc9c19320bccd);
+        
+    
+        var popup_5213d7fcf4aa2ea763744d306b3eadc3 = L.popup({
+  "maxWidth": 260,
+});
+
+        
+            
+                var html_5bef9dfb549671af0dc84348324b0c32 = $(`<div id="html_5bef9dfb549671af0dc84348324b0c32" style="width: 100.0%; height: 100.0%;"><b>Panel Lampu Jalan Betungan</b> (LMP-02)<br>Status: WARNING<br>Suhu: 74.7 C<br>Getaran: 2.49 mm/s<br>Baterai: 11.8%</div>`)[0];
+                popup_5213d7fcf4aa2ea763744d306b3eadc3.setContent(html_5bef9dfb549671af0dc84348324b0c32);
+            
+        
+
+        circle_marker_919f279946611ebb4c10e437edfa00bf.bindPopup(popup_5213d7fcf4aa2ea763744d306b3eadc3)
+        ;
+
+        
+    
+    
+            var circle_marker_17196b44ab59bac732a6cba15761d64a = L.circleMarker(
+                [-3.7928, 102.2608],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_b29271d85f8701ec638dc9c19320bccd);
+        
+    
+        var popup_cbc0820fbefdbf680224a29f96febce7 = L.popup({
+  "maxWidth": 260,
+});
+
+        
+            
+                var html_4fc18bf76359a1810776b465c3f68c3a = $(`<div id="html_4fc18bf76359a1810776b465c3f68c3a" style="width: 100.0%; height: 100.0%;"><b>Pompa Air Padang Harapan</b> (PMP-01)<br>Status: NORMAL<br>Suhu: 53.6 C<br>Getaran: 2.32 mm/s<br>Baterai: 72.2%</div>`)[0];
+                popup_cbc0820fbefdbf680224a29f96febce7.setContent(html_4fc18bf76359a1810776b465c3f68c3a);
+            
+        
+
+        circle_marker_17196b44ab59bac732a6cba15761d64a.bindPopup(popup_cbc0820fbefdbf680224a29f96febce7)
+        ;
+
+        
+    
+    
+            var circle_marker_bdc5280c9fa0c6ec0bf80771d6566897 = L.circleMarker(
+                [-3.8156, 102.2891],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_b29271d85f8701ec638dc9c19320bccd);
+        
+    
+        var popup_be57866aef17ecd4364dcd0ffede6bfe = L.popup({
+  "maxWidth": 260,
+});
+
+        
+            
+                var html_a67fdab97c12a0c04a8e559f7e9f845b = $(`<div id="html_a67fdab97c12a0c04a8e559f7e9f845b" style="width: 100.0%; height: 100.0%;"><b>Pompa Air Sawah Lebar</b> (PMP-02)<br>Status: CRITICAL<br>Suhu: 94.7 C<br>Getaran: 6.51 mm/s<br>Baterai: 73.1%</div>`)[0];
+                popup_be57866aef17ecd4364dcd0ffede6bfe.setContent(html_a67fdab97c12a0c04a8e559f7e9f845b);
+            
+        
+
+        circle_marker_bdc5280c9fa0c6ec0bf80771d6566897.bindPopup(popup_be57866aef17ecd4364dcd0ffede6bfe)
+        ;
+
+        
+    
+    
+            var circle_marker_39e18223d8922aa7fb9bea26146cd25e = L.circleMarker(
+                [-3.7581, 102.2704],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_b29271d85f8701ec638dc9c19320bccd);
+        
+    
+        var popup_04403137f7d456c8c44903bd8a8a300d = L.popup({
+  "maxWidth": 260,
+});
+
+        
+            
+                var html_633cf4baf0b9283c2655d651ad064109 = $(`<div id="html_633cf4baf0b9283c2655d651ad064109" style="width: 100.0%; height: 100.0%;"><b>Pompa Air Kandang Limun</b> (PMP-03)<br>Status: NORMAL<br>Suhu: 54.1 C<br>Getaran: 2.05 mm/s<br>Baterai: 91.7%</div>`)[0];
+                popup_04403137f7d456c8c44903bd8a8a300d.setContent(html_633cf4baf0b9283c2655d651ad064109);
+            
+        
+
+        circle_marker_39e18223d8922aa7fb9bea26146cd25e.bindPopup(popup_04403137f7d456c8c44903bd8a8a300d)
+        ;
+
+        
+    
+    
+            var circle_marker_484cf0fab59c2f7fc72335a96f18c5b3 = L.circleMarker(
+                [-3.8023, 102.2519],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_b29271d85f8701ec638dc9c19320bccd);
+        
+    
+        var popup_b2c480b8e5df4cf496d4eca2f418e2df = L.popup({
+  "maxWidth": 260,
+});
+
+        
+            
+                var html_a79c3ca18f5cb5c19cb74504c3925001 = $(`<div id="html_a79c3ca18f5cb5c19cb74504c3925001" style="width: 100.0%; height: 100.0%;"><b>Trafo Lingkar Barat</b> (TRF-01)<br>Status: NORMAL<br>Suhu: 40.4 C<br>Getaran: 0.75 mm/s<br>Baterai: 56.7%</div>`)[0];
+                popup_b2c480b8e5df4cf496d4eca2f418e2df.setContent(html_a79c3ca18f5cb5c19cb74504c3925001);
+            
+        
+
+        circle_marker_484cf0fab59c2f7fc72335a96f18c5b3.bindPopup(popup_b2c480b8e5df4cf496d4eca2f418e2df)
+        ;
+
+        
+    
+    
+            var circle_marker_0f6d6eb7140304cdb9d0006935e517ba = L.circleMarker(
+                [-3.8265, 102.2698],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_b29271d85f8701ec638dc9c19320bccd);
+        
+    
+        var popup_a7005dc8ba2839d6be526e53b29dd869 = L.popup({
+  "maxWidth": 260,
+});
+
+        
+            
+                var html_355044d5c4447275c6660da469b093f0 = $(`<div id="html_355044d5c4447275c6660da469b093f0" style="width: 100.0%; height: 100.0%;"><b>Trafo Pantai Panjang</b> (TRF-02)<br>Status: NORMAL<br>Suhu: 49.6 C<br>Getaran: 1.41 mm/s<br>Baterai: 62.2%</div>`)[0];
+                popup_a7005dc8ba2839d6be526e53b29dd869.setContent(html_355044d5c4447275c6660da469b093f0);
+            
+        
+
+        circle_marker_0f6d6eb7140304cdb9d0006935e517ba.bindPopup(popup_a7005dc8ba2839d6be526e53b29dd869)
+        ;
+
+        
+    
+    
+            var circle_marker_6d6a789cf62bf0607c38186525511d09 = L.circleMarker(
+                [-3.8744, 102.321],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_b29271d85f8701ec638dc9c19320bccd);
+        
+    
+        var popup_b0cae0fe111ee9bc114fffa7cc49dd9e = L.popup({
+  "maxWidth": 260,
+});
+
+        
+            
+                var html_f2ecd43a8a1ac81dd3fcdaf7fdb4f60e = $(`<div id="html_f2ecd43a8a1ac81dd3fcdaf7fdb4f60e" style="width: 100.0%; height: 100.0%;"><b>Trafo Sukarami</b> (TRF-03)<br>Status: CRITICAL<br>Suhu: 84.7 C<br>Getaran: 6.07 mm/s<br>Baterai: 96.2%</div>`)[0];
+                popup_b0cae0fe111ee9bc114fffa7cc49dd9e.setContent(html_f2ecd43a8a1ac81dd3fcdaf7fdb4f60e);
+            
+        
+
+        circle_marker_6d6a789cf62bf0607c38186525511d09.bindPopup(popup_b0cae0fe111ee9bc114fffa7cc49dd9e)
+        ;
+
+        
+    
+    
+            var marker_eaaeef249f1cedb7708881748c0b8ca3 = L.marker(
+                [-3.795, 102.27],
+                {
+}
+            ).addTo(map_b29271d85f8701ec638dc9c19320bccd);
+        
+    
+            var icon_dbd506b5ea1787f6ac88edbf3c0c5e72 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wrench",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_eaaeef249f1cedb7708881748c0b8ca3.bindTooltip(
+                `<div>
+                     Tim Teknisi Pusat
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_eaaeef249f1cedb7708881748c0b8ca3.setIcon(icon_dbd506b5ea1787f6ac88edbf3c0c5e72);
+            
+    
+            var marker_3f03cc64cf22caf8fe76536c33608e00 = L.marker(
+                [-3.855, 102.305],
+                {
+}
+            ).addTo(map_b29271d85f8701ec638dc9c19320bccd);
+        
+    
+            var icon_71bc60c7e974775a7c71e18fe4b2fa3b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wrench",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_3f03cc64cf22caf8fe76536c33608e00.bindTooltip(
+                `<div>
+                     Tim Teknisi Selatan
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_3f03cc64cf22caf8fe76536c33608e00.setIcon(icon_71bc60c7e974775a7c71e18fe4b2fa3b);
+            
+    
+            var marker_e731ab22cde60a769be3ee4c4b03d975 = L.marker(
+                [-3.765, 102.26],
+                {
+}
+            ).addTo(map_b29271d85f8701ec638dc9c19320bccd);
+        
+    
+            var icon_d319309e56e5e41c2c303ee67d5362de = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wrench",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_e731ab22cde60a769be3ee4c4b03d975.bindTooltip(
+                `<div>
+                     Tim Teknisi Barat
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_e731ab22cde60a769be3ee4c4b03d975.setIcon(icon_d319309e56e5e41c2c303ee67d5362de);
+            
+</script>
+</html>

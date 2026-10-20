@@ -1,0 +1,11 @@
+asset_id,name,type,lat,lon
+PMP-01,Pompa Air Padang Harapan,pompa,-3.7928,102.2608
+PMP-02,Pompa Air Sawah Lebar,pompa,-3.8156,102.2891
+PMP-03,Pompa Air Kandang Limun,pompa,-3.7581,102.2704
+GEN-01,Genset Kampus UNIB,genset,-3.7589,102.2767
+GEN-02,Genset Pasar Minggu,genset,-3.8402,102.3101
+TRF-01,Trafo Lingkar Barat,trafo,-3.8023,102.2519
+TRF-02,Trafo Pantai Panjang,trafo,-3.8265,102.2698
+TRF-03,Trafo Sukarami,trafo,-3.8744,102.3210
+LMP-01,Panel Lampu Jalan Pagar Dewa,lampu,-3.7905,102.2650
+LMP-02,Panel Lampu Jalan Betungan,lampu,-3.8650,102.3060
